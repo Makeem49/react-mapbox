@@ -1,12 +1,17 @@
 body {
   margin: 0;
 }
-#re-render {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1000;
-}
 #map {
-  height: 90vh;
+  height: 50vh;
+}
+.map-overlay {
+  position: absolute;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.7);
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
